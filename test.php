@@ -6,18 +6,13 @@
 	</head>
 	
 	<body>
-		<header>
-			<?php
-				include 'includes/header.php' ;
-			?>
-		</header>
-		<nav>
+		<h1>php test page</h1>
 		
-		</nav>
-		<main>
-		
-		</main>
-		<footer>
-		</footer>
+		<?php
+			$directory = dirname(__FILE__);
+			echo "<p>Full path to this directory is: " .
+			$directory . "</p>";
+		?>
+		<hr>
 	</body>
 </html>
