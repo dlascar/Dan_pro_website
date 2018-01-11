@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+	<!-- <?php
+		include 'includes/header.php'
+	?>
+	<body>
+		<?php
+			include 'includes/navigation.php'
+		?>
+		<main>
+		
+		</main>
+		<?php
+			include 'includes/footer.php'
+		?>
+	</body> -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="The website of Daniel D. Lascar, Ph.D.">
+    <meta name="description" content="The contact information of Daniel D. Lascar, Ph.D.">
     <meta name="author" content="Daniel Lascar">
     <link rel="icon" href="images/physics-multi-size.ico">
 
-    <title>Website of Daniel D. Lascar, Ph.D.</title>
+    <title>Contact information of Daniel D. Lascar, Ph.D.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
 	<!--<link href="dist/css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!--<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!--<link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
@@ -47,12 +61,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">About</a></li>
+            <li><a href="index.html">About</a></li>
             <li><a href="research.html">Research</a></li>
             <li><a href="teaching.html">Teaching</a></li>
 			<li><a href="cv.html">Academic CV</a></li>
 			<li><a href="pubs.html">Publications</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li class="active"><a href="contact.html">Contact</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -74,84 +88,40 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3"><h1>Nuclear Astrophysicist</h1></div>
+			<div class="col-md-3"><h1>Please contact <br>me with questions <br>or comments</h1></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-3"></div>
+		</div>
+		
+		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-3">
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-3">
-				<img src="images/anl_elm.png" width=90% height="auto" align="middle"/>
-			</div>
-			<div class="col-md-3">
+				Email: <a href="mailto:lascar@anl.gov">lascar@anl.gov</a>
 				<br>
-				<p>I am currently an adjunct faculty member at <a href="http://www.elmhurst.edu" target="_blank">Elmhurst College</a> and postdoctoral researcher at <a href="http://www.anl.gov" target="_blank">Argonne National Laboratory</a> with the ion trapping group. </p>
-			</div>
-			<div class="col-md-3">
+				Phone: 773-454-2913
+				<br>
+				<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+				<div id="SkypeButton_Call_daniel.lascar_1">
+					<script type="text/javascript">
+						Skype.ui({
+						"name": "dropdown",
+						"element": "SkypeButton_Call_daniel.lascar_1",
+						"participants": ["daniel.lascar"],
+						"imageSize": 24
+						});
+					</script>
+				</div>
+				<br>
 				<script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
 				<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/danieldlascar" data-format="inline" data-related="false"></script>	
 			</div>
-		</div>
-		<br><br>
-		<div class="row">
-			<div class="col-md-3">
-				<!--<img src="images/2peak.png" width="90%" height="auto" align="middle"/> -->
-				<img src="images/scope_circle.png" width="90%" height="auto" align="middle"/>
-			</div>
-			<div class="col-md-3">
-				<br><br>
-				<p>I was the lead postdoctoral fellow in the <a href="https://titan.triumf.ca/" target="_blank">TITAN</a> ion trapping group at <a href="http://www.triumf.ca" target="_blank">TRIUMF</a> in Vancouver, BC. I primarily studied astrophysically important nuclear properties.</p>
-			</div>
-			<div class="col-md-3"><br>
-			</div>
-		</div>
-		<br><br>
-		<!--<div class="row">
 			<div class="col-md-3"></div>
-			<div class="col-md-3"></div>
-			<div class="col-md-3"></div>
-		</div>-->
-		<div class="row">
-			<div class="col-md-3">
-				<img src="images/chart-r1.png" width="90%" height="auto" align="middle"/>
-			</div>
-			<div class="col-md-3">
-				<br><br>
-				<p>I have taught lectures and courses in Nuclear Astrophysics, Mass Spectrometry, Ion Trapping, Detector Physics, Electricity and Magnetism, Mechanics, and Waves and Optics</p>
-			</div>
-			<div class="col-md-3"><br>
-			</div>
-		</div>
-		<br><br>
-		<div class ="row">
-			<div class="col-md-3">
-				<img src="images/logos1.png" width="90%" height="auto" align="middle"/>
-			</div>
-			<div class="col-md-3">
-				<br><br>
-				<p>I performed my Ph.D. work at <a href="http://www.physics.northwestern.edu" target="_blank">Northwestern University</a> and <a href="http://www.anl.gov" target="_blank">Argonne National Laboratory</a> making high-precision mass measurements with the <a href="https://en.wikipedia.org/wiki/Canadian_Penning_Trap_Mass_Spectrometer" target="_blank">CPT mass spectrometer</a>.</p>
-			</div>
-			<div class="col-md-3"><br>
-			</div>
-		</div>
-		<br><br>
-		<div class="row">
-			<div class="col-md-3">
-				<img src="images/2peak.png" width="90%" height="auto" align="middle"/>
-			</div>
-			<div class="col-md-3">
-				<br><br>
-				<p>My career goals are to secure a joint appointment at a university and a national laboratory so that I can create and manage experimental efforts while being able to teach.</p>
-			</div>
-			<div class="col-md-3"><br>
-			</div>
 		</div>
 	</div>
 				
 	<footer class="footer">
       <div class="container">
-        <p class="text-muted">Copyright &copy; 2017 <a href="mailto:lascar@anl.gov?Subject=Website%20question" target="_top">Daniel D. Lascar</a>. Version 2.1. All rights reserved. </p>
+        <p class="text-muted">Copyright &copy; 2017 <a href="mailto:lascar@anl.gov?Subject=Website%20question" target="_top">Daniel D. Lascar</a>. Version 2.0. All rights reserved.</p>
       </div>
     </footer>
 
