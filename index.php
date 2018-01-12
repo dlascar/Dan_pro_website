@@ -151,7 +151,7 @@
 				
 	<footer class="footer">
       <?php
-		include 'includes/footer.php' ;
+		includes 'includes/footer.php' ;
 	  ?>
     </footer>
 
