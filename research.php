@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="The contact information of Daniel D. Lascar, Ph.D.">
+    <meta name="description" content="The research of Daniel D. Lascar, Ph.D.">
     <meta name="author" content="Daniel Lascar">
     <link rel="icon" href="images/physics-multi-size.ico">
 
-    <title>Contact information of Daniel D. Lascar, Ph.D.</title>
+    <title>Research of Daniel D. Lascar, Ph.D.</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -47,12 +48,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">About</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-			<li><a href="cv.html">Academic CV</a></li>
-			<li><a href="pubs.html">Publications</a></li>
-			<li class="active"><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">About</a></li>
+            <li class="active"><a href="research.php">Research</a></li>
+            <li><a href="teaching.php">Teaching</a></li>
+			<li><a href="cv.php">Academic CV</a></li>
+			<li><a href="pubs.php">Publications</a></li>
+			<li><a href="contact.php">Contact</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -74,41 +75,65 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3"><h1>Please contact <br>me with questions <br>or comments</h1></div>
+			<div class="col-md-3"><h1>Research Interests</h1></div>
 			<div class="col-md-3"></div>
-			<div class="col-md-3"></div>
+			<div class="col-md-2"></div>
 		</div>
 		
 		<div class="row">
-			<div class="col-md-3"></div>
 			<div class="col-md-3">
-				Email: <a href="mailto:lascar@anl.gov">lascar@anl.gov</a>
-				<br>
-				Phone: 773-454-2913
-				<br>
-				<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-				<div id="SkypeButton_Call_daniel.lascar_1">
-					<script type="text/javascript">
-						Skype.ui({
-						"name": "dropdown",
-						"element": "SkypeButton_Call_daniel.lascar_1",
-						"participants": ["daniel.lascar"],
-						"imageSize": 24
-						});
-					</script>
-				</div>
-				<br>
-				<script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
-				<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/danieldlascar" data-format="inline" data-related="false"></script>	
+				<ul>
+					<li><p><a href="docs/Lascar_ASW_2016.pdf" target="_blank">EMMATrap</a> - A new mass measurement facility for EMMA at TRIUMF</p></li>
+					<li>High precision mass measurements of short-lived nuclei</li>
+					<li>Improving inputs in existing astrophysical models</li>
+					<li>Ion trapping and manipulation</li>
+					<li>Multi-thread project management</li>
+					<li>Design and development of various new experimental apparatus and the use of 2D and 3D CAD software</li>
+					<li>Advanced RF circuit design</li>
+					<li>Programming experimental upgrades in five different languages</li>
+					<li>Proficiency in clean room procedures and practices </li>
+					<li>Automation and ultra high vacuum technologies </li>
+					<li>Experimental proposal writing and defense</li>
+				</ul>
 			</div>
-			<div class="col-md-3"></div>
+			<div class="col-md-6"><p>My approach to research has been driven by a love of astrophysics and instrumentation. I enjoy designing and building the devices on which I work, and feel an immense sense of pride when a device I have built is used to advance research.</p> 
+			<br>
+			<p>The measurement of the masses of astrophysically important nuclei has been a driving goal in much of the work that I have done. I intend to take the lead in implementing experimental innovations to support the mass measurements of short-lived nuclei.</p>
+			<br>
+			<p>I have shown that ability in my work on TRIUMF's Cooler Penning Trap (CPET) to improve mass measurement precision with highly charged ions, my design and fabrication of CARIBU's low-energy beamline, and in my additions and upgrades to the Canadian Penning Trap (CPT) system over my nearly ten years with the group.</p>
+			<br>
+			<p>I have written successful research proposals to measure the masses of never before measured astrophysically important nuclei at both TRIUMF and at ANL, taking advantage of the unique capabilities of the respective facilities, and have several other proposals in process.</p></div>
+			<div class="col-md-2">
+				<img src="images/Rendered_cutaway.jpg" width="100%" height="auto" align="middle"/>
+				<img src="images/mesh_detector_dimm.JPG" width="100%" height="auto" align="middle"/>
+			</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br>
+		<div class="row">
+			<div class="col-md-3"><h2>EMMATrap</h2></div>
+			<div class="col-md-6">
+				<a href="docs/Lascar_ASW_2016.pdf"><img src="images/EMMATrap.png" width="100%" height="auto" align="middle"/></a>
+			</div>
+			<div class="col-md-2"></div>
 		</div>
 	</div>
 				
 	<footer class="footer">
+<<<<<<< HEAD:research.html
+<<<<<<< HEAD:research.html
       <div class="container">
         <p class="text-muted">Copyright &copy; 2017 <a href="mailto:lascar@anl.gov?Subject=Website%20question" target="_top">Daniel D. Lascar</a>. Version 2.0. All rights reserved.</p>
       </div>
+=======
+      <?php
+		include 'includes/footer.php' ;
+	  ?>
+>>>>>>> parent of 6ae37a2... Correcting php code:research.php
+=======
+      <?php
+		include 'includes/footer.php' ;
+	  ?>
+>>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":research.php
     </footer>
 
     <!-- Bootstrap core JavaScript
