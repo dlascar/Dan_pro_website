@@ -105,7 +105,7 @@
 	</div>
 				
 	<footer class="footer">
-		<?php includes 'includes/footer.php' ;
+		<?php include 'includes/footer.php' ;
 		?>
     </footer>
 
