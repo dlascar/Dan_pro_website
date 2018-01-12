@@ -119,6 +119,7 @@
 	</div>
 				
 	<footer class="footer">
+<<<<<<< HEAD:research.php
 <<<<<<< HEAD:research.html
 <<<<<<< HEAD:research.html
       <div class="container">
@@ -129,6 +130,11 @@
 		include 'includes/footer.php' ;
 	  ?>
 >>>>>>> parent of 6ae37a2... Correcting php code:research.php
+=======
+      <?php
+		include 'includes/footer.php' ;
+	  ?>
+>>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":research.php
 =======
       <?php
 		include 'includes/footer.php' ;

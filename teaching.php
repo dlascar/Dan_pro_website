@@ -178,6 +178,7 @@
 	</div>
 				
 	<footer class="footer">
+<<<<<<< HEAD:teaching.php
 <<<<<<< HEAD:teaching.html
 <<<<<<< HEAD:teaching.html
       <div class="container">
@@ -188,6 +189,11 @@
 		include 'includes/footer.php' ;
 	  ?>
 >>>>>>> parent of 6ae37a2... Correcting php code:teaching.php
+=======
+      <?php
+		include 'includes/footer.php' ;
+	  ?>
+>>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":teaching.php
 =======
       <?php
 		include 'includes/footer.php' ;
