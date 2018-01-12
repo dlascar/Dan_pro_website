@@ -162,6 +162,7 @@
 				
 	<footer class="footer">
 <<<<<<< HEAD:pubs.php
+<<<<<<< HEAD:pubs.php
 <<<<<<< HEAD:pubs.html
 <<<<<<< HEAD:pubs.html
       <div class="container">
@@ -172,6 +173,11 @@
 		include 'includes/footer.php' ;
 	  ?>
 >>>>>>> parent of 6ae37a2... Correcting php code:pubs.php
+=======
+      <?php
+		include 'includes/footer.php' ;
+	  ?>
+>>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":pubs.php
 =======
       <?php
 		include 'includes/footer.php' ;
