@@ -179,7 +179,7 @@
 				
 	<footer class="footer">
       <?php
-		includes 'includes/footer.php' ;
+		include 'includes/footer.php' ;
 	  ?>
     </footer>
 
