@@ -30,12 +30,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">About</a></li>
-            <li class="active"><a href="research.html">Research</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-			<li><a href="cv.html">Academic CV</a></li>
-			<li><a href="pubs.html">Publications</a></li>
-			<li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">About</a></li>
+            <li class="active"><a href="research.php">Research</a></li>
+            <li><a href="teaching.php">Teaching</a></li>
+			<li><a href="cv.php">Academic CV</a></li>
+			<li><a href="pubs.php">Publications</a></li>
+			<li><a href="contact.php">Contact</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -101,39 +101,9 @@
 	</div>
 				
 	<footer class="footer">
-<<<<<<< HEAD:research.php
-<<<<<<< HEAD:research.php
-<<<<<<< HEAD:research.php
-<<<<<<< HEAD:research.html
-<<<<<<< HEAD:research.html
-      <div class="container">
-        <p class="text-muted">Copyright &copy; 2017 <a href="mailto:lascar@anl.gov?Subject=Website%20question" target="_top">Daniel D. Lascar</a>. Version 2.0. All rights reserved.</p>
-      </div>
-=======
       <?php
 		include 'includes/footer.php' ;
 	  ?>
->>>>>>> parent of 6ae37a2... Correcting php code:research.php
-=======
-      <?php
-		include 'includes/footer.php' ;
-	  ?>
->>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":research.php
-=======
-      <?php
-		include 'includes/footer.php' ;
-	  ?>
->>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":research.php
-=======
-      <?php
-		include 'includes/footer.php' ;
-	  ?>
->>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":research.php
-=======
-      <div class="container">
-        <p class="text-muted">Copyright &copy; 2017 <a href="mailto:lascar@anl.gov?Subject=Website%20question" target="_top">Daniel D. Lascar</a>. Version 2.0. All rights reserved.</p>
-      </div>
->>>>>>> parent of 094d0c6... Merge branch 'php_footer':research.html
     </footer>
 
     <!-- Bootstrap core JavaScript

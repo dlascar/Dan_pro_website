@@ -29,12 +29,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.html">About</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-			<li><a href="cv.html">Academic CV</a></li>
-			<li class="active"><a href="pubs.html">Publications</a></li>
-			<li><a href="contact.html">Contact</a></li>
+            <li><a href="index.php">About</a></li>
+            <li><a href="research.php">Research</a></li>
+            <li><a href="teaching.php">Teaching</a></li>
+			<li><a href="cv.php">Academic CV</a></li>
+			<li class="active"><a href="pubs.php">Publications</a></li>
+			<li><a href="contact.php">Contact</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -71,7 +71,7 @@
 					<br>
 					<li><u>D. Lascar</u>, B. Kootte, B.R. Barquest, U. Chowdhury, A.T. Gallant, M. Good, R. Klawitter, E. Leistenschneider, C. Andreoiu, J. Dilling, J. Even, G. Gwinner, A.A. Kwiatkowski, and K.G. Leach, <a href="http://linkinghub.elsevier.com/retrieve/pii/S0168900217307143" target="_blank"><q>A Novel Transparent Charged Particle Detector for the CPET Upgrade at TITAN,</q></a> <i>NIMA</i>, <strong>868</strong>133 (2017).</li>
 					<br>
-					<li> C. Babcock, E. Leistenschneider, <u>D. Lascar</u>, R. Klawitter, B.R. Barquest, M. Foster, P. Hunt, M. Jones, B. Kootte, Y. Lan, S. Paul, L. Phan, P.M. Reiter, D. Short, C. Andreiou, J. Dilling, G. Gwinner, A.A. Kwiatkowski, and K.G. Leach, <q>Mass Measurements of Neutron-Rich Indium Isotopes Towards the <i>N=82</i> Shell Closure.</q> <i>Submitted to Phys. Rev. C.</i> </li>
+					<li> C. Babcock, E. Leistenschneider, <u>D. Lascar</u>, R. Klawitter, B.R. Barquest, M. Foster, P. Hunt, M. Jones, B. Kootte, Y. Lan, S. Paul, L. Phan, P.M. Reiter, D. Short, C. Andreiou, J. Dilling, G. Gwinner, A.A. Kwiatkowski, and K.G. Leach, <q>Mass measurements of neutron-rich In ground and isomeric states.</q> <i>In preparation. To be submitted to Phys. Rev. C.</i> </li>
 					<br>
 					<li><u>D. Lascar</u>, A. A. Kwiatkowski, U. Chowdhury, A. Finlay, A. T. Gallant, M. Good, R. Klawitter, B. Kootte, K. G. Leach, A. Lennarz, E. Leistenschneider, B. E. Schultz, R. Schupp, D. A. Short, C. Andreoiu, J. Dilling and G. Gwinner, <a href="http://www.sciencedirect.com/science/article/pii/S0168583X15012719" target="_blank"><q>Improvements to TITAN&apos;s Mass Measurement and Decay Spectroscopy Capabilities,</q></a> <i>NIMB</i>, <strong>376</strong> 292 (2016).</li>
 					<br>
@@ -142,39 +142,9 @@
 	</div>
 				
 	<footer class="footer">
-<<<<<<< HEAD:pubs.php
-<<<<<<< HEAD:pubs.php
-<<<<<<< HEAD:pubs.php
-<<<<<<< HEAD:pubs.html
-<<<<<<< HEAD:pubs.html
-      <div class="container">
-        <p class="text-muted">Copyright &copy; 2017 <a href="mailto:lascar@anl.gov?Subject=Website%20question" target="_top">Daniel D. Lascar</a>. Version 2.0. All rights reserved.</p>
-      </div>
-=======
       <?php
 		include 'includes/footer.php' ;
 	  ?>
->>>>>>> parent of 6ae37a2... Correcting php code:pubs.php
-=======
-      <?php
-		include 'includes/footer.php' ;
-	  ?>
->>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":pubs.php
-=======
-      <?php
-		include 'includes/footer.php' ;
-	  ?>
->>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":pubs.php
-=======
-      <?php
-		include 'includes/footer.php' ;
-	  ?>
->>>>>>> parent of 5989e49... Revert "Merge branch 'php_footer'":pubs.php
-=======
-      <div class="container">
-        <p class="text-muted">Copyright &copy; 2017 <a href="mailto:lascar@anl.gov?Subject=Website%20question" target="_top">Daniel D. Lascar</a>. Version 2.0. All rights reserved.</p>
-      </div>
->>>>>>> parent of 094d0c6... Merge branch 'php_footer':pubs.html
     </footer>
 
     <!-- Bootstrap core JavaScript
