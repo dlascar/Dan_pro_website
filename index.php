@@ -65,11 +65,11 @@
 		<br>
 		<div class="row">
 			<div class="col-md-3">
-				<img src="images/anl_elm.png" width=90% height="auto" align="middle"/>
+				<img src="images/nu_loyola_logo.png" width=100% height="auto" align="middle"/>
 			</div>
 			<div class="col-md-3">
 				<br>
-				<p>I am currently an adjunct faculty member at <a href="http://www.elmhurst.edu" target="_blank">Elmhurst College</a> and postdoctoral researcher at <a href="http://www.anl.gov" target="_blank">Argonne National Laboratory</a> with the ion trapping group. </p>
+				<p>I am currently an adjunct faculty member at <a href="http://www.luc.edu" target="_blank">Loyola University Chicago</a> and laboratory manager at <a href="http://www.northwestern.edu" target="_blank">Northwestern University</a> in the <a href="http://cfp.physics.northwestern.edu/" target="_blank">Center for Fundamental Physics (CFP)</a>. </p>
 			</div>
 			<div class="col-md-3">
 				<script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
