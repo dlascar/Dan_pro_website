@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="mailto:lascar@anl.gov">Daniel D. Lascar, Ph.D.</a>
+          <a class="navbar-brand" href="mailto:daniel.lascar@northwestern.edu">Daniel D. Lascar, Ph.D.</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -65,17 +65,30 @@
 		<br>
 		<div class="row">
 			<div class="col-md-3">
-				<img src="images/nu_loyola_logo.png" width=100% height="auto" align="middle"/>
+				<!-- <img src="images/nu_loyola_logo.png" width=100% height="auto" align="middle"/> -->
+				<img src="images/nu-vertical.gif" width=100% height="auto" align="middle"/>
 			</div>
 			<div class="col-md-3">
+				<p>I am currently a Research Assistant Professor, Administrator and Laboratory Manager in the new <a href="https://cfp.physics.northwestern.edu/" target="_blank">Center for Fundamental Physics</a>. I am also an Instructor in <a href="https://www.physics.northwestern.edu/" target="_blank">Northwestern's Department of Physics and Astronomy</a>, teaching calculus-based introductory physics .
+			</div>
+			<!-- <div class="col-md-3">
 				<br>
 				<p>I am currently an adjunct faculty member at <a href="http://www.luc.edu" target="_blank">Loyola University Chicago</a> and laboratory manager at <a href="http://www.northwestern.edu" target="_blank">Northwestern University</a> in the <a href="http://cfp.physics.northwestern.edu/" target="_blank">Center for Fundamental Physics (CFP)</a>. </p>
-			</div>
+			</div> -->
 			<div class="col-md-3">
 				<script src="https://platform.linkedin.com/in.js" type="text/javascript"></script>
 				<script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/danieldlascar" data-format="inline" data-related="false"></script>	
 			</div>
 		</div>
+		<!-- <br><br>
+		<div class="row">
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-3">
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div> -->
 		<br><br>
 		<div class="row">
 			<div class="col-md-3">

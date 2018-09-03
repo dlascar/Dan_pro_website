@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="mailto:lascar@anl.gov">Daniel D. Lascar, Ph.D.</a>
+          <a class="navbar-brand" href="mailto:daniel.lascar@northwestern.edu">Daniel D. Lascar, Ph.D.</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -90,7 +90,9 @@
 				<h2>Contributing Author</h2>
 				<br>
 				<ul>
-					<li>E. Leistenschneider, M.P. Reiter, S. Ayet San Andrés, B. Kootte, J.D. Holt, P. Navrátil, C. Babcock, C. Barbieri, B.R. Barquest, J. Bergmann, J. Bollig, T. Brunner, E. Dunling, A. Finlay, H. Geissel, L. Graham, F. Greiner, H. Hergert, C. Hornung, C. Jesch, R. Klawitter, Y. Lan, <u>D. Lascar</u>, K.G. Leach, W. Lippert, J.E. McKay, S.F. Paul, A. Schwenk, D. Short, J. Simonis, V. Somà, R. Steinbrügge, S.R. Stroberg, R. Thompson, M.E. Wieser, C. Will, M. Yavor, C. Andreoiu, T. Dickel, I. Dillmann, G. Gwinner, W.R. Plaß, C. Scheidenberger, A.A. Kwiatkowski, and J. Dilling, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.062503" target="_blank">Dawning of the N=32 shell closure seen through precision mass measurements of neutron-rich titanium isotopes,</q></a> <i>Phys. Rev. Lett.</i> <strong>120</strong> 062503 (2018).</li>
+					<li>M.P. Reiter, S. Ayet San Andrés, E. Dunling, B. Kootte, E. Leistenschneider, C. Andreoiu, C. Babcock, B.R. Barquest, J. Bollig, T. Brunner, I. Dillmann, A. Finlay, G. Gwinner, L. Graham, J.D. Holt, C. Hornung, C. Jesch, R. Klawitter, Y. Lan, <u>D. Lascar</u>, J.E. McKay, S.F. Paul, R. Steinbrügge, R. Thompson, J.L. Tracy Jr, M.E. Wieser, C. Will, T. Dickel, W.R. Plaß, C. Scheidenberger, A.A. Kwiatkowski, J. Dilling, <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.98.024310" target="_blank"><q>Quenching of the N=32 neutron shell closure studied via precision mass measurements of neutron-rich vanadium isotopes,</q></a> <i>Phys. Rev. C.</i> <srong>98</strong> 024310 (2018).</li>
+					<br>
+					<li>E. Leistenschneider, M.P. Reiter, S. Ayet San Andrés, B. Kootte, J.D. Holt, P. Navrátil, C. Babcock, C. Barbieri, B.R. Barquest, J. Bergmann, J. Bollig, T. Brunner, E. Dunling, A. Finlay, H. Geissel, L. Graham, F. Greiner, H. Hergert, C. Hornung, C. Jesch, R. Klawitter, Y. Lan, <u>D. Lascar</u>, K.G. Leach, W. Lippert, J.E. McKay, S.F. Paul, A. Schwenk, D. Short, J. Simonis, V. Somà, R. Steinbrügge, S.R. Stroberg, R. Thompson, M.E. Wieser, C. Will, M. Yavor, C. Andreoiu, T. Dickel, I. Dillmann, G. Gwinner, W.R. Plaß, C. Scheidenberger, A.A. Kwiatkowski, and J. Dilling, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.062503" target="_blank"><q>Dawning of the N=32 shell closure seen through precision mass measurements of neutron-rich titanium isotopes,</q></a> <i>Phys. Rev. Lett.</i> <strong>120</strong> 062503 (2018).</li>
 					<br>
 					<li>M.P. Reiter, K.G. Leach, O.M. Drozdowski, S.R. Stroberg, J.D. Holt, C. Andreoiu, C. Babcock, B. Barquest, M. Brodeur, A. Finlay, M. Foster, A.T. Gallant, G. Gwinner, R. Klawitter, B. Kootte, A.A. Kwiatkowski, Y. Lan, <u>D. Lascar</u>, E. Leistenschneider, A. Lennarz, S. Paul, R. Steinbrügge, R.I. Thompson, M. Weiser, and J. Dilling, <a href="https://link.aps.org/doi/10.1103/PhysRevC.96.052501" target="_blank"><q>High-precision Q<sub>EC</sub>-value measurement of the superallowed &beta;<sup>+</sup> emitter <sup>22</sup>Mg and an <it>ab-initio</it> evaluation of the A=22 isobaric triplet,</q></a> <i>Phys. Rev. C.</i> <strong>96</strong> 052501(<strong>R</strong>) (2017).</li>
 					<br>
