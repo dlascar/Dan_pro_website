@@ -4,11 +4,11 @@
 		<?php
 			include 'includes/header.php' ;
 		?>
-		<meta name="description" content="The research of Daniel D. Lascar, Ph.D.">
+		<meta name="description" content="The research of Prof. Daniel D. Lascar">
 		<?php	
 			include 'includes/header_mid.php' ;
 		?>
-		<title>Research of Daniel D. Lascar, Ph.D.</title>
+		<title>Research of Prof. Daniel D. Lascar</title>
 		<?php
 			include 'includes/header_end.php'
 		?>
@@ -17,42 +17,9 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="mailto:daniel.lascar@northwestern.edu">Daniel D. Lascar, Ph.D.</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php">About</a></li>
-            <li class="active"><a href="research.php">Research</a></li>
-            <li><a href="teaching.php">Teaching</a></li>
-			<li><a href="cv.php">Academic CV</a></li>
-			<li><a href="pubs.php">Publications</a></li>
-			<li><a href="contact.php">Contact</a></li>
-            <!-- <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li> -->
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
+	
+    <?php $page = 'research'; include 'includes/navigation.php' ; ?>
+	
     <!-- Begin page content -->
 
 	<div class="container">
@@ -65,7 +32,6 @@
 		<div class="row">
 			<div class="col-md-3">
 				<ul>
-					<li><p><a href="docs/Lascar_ASW_2016.pdf" target="_blank">EMMATrap</a> - A new mass measurement facility for EMMA at TRIUMF</p></li>
 					<li>High precision mass measurements of short-lived nuclei</li>
 					<li>Improving inputs in existing astrophysical models</li>
 					<li>Ion trapping and manipulation</li>
@@ -76,6 +42,7 @@
 					<li>Proficiency in clean room procedures and practices </li>
 					<li>Automation and ultra high vacuum technologies </li>
 					<li>Experimental proposal writing and defense</li>
+					<li><p><a href="docs/Lascar_ASW_2016.pdf" target="_blank">EMMATrap</a> - A new mass measurement facility for EMMA at TRIUMF</p></li>
 				</ul>
 			</div>
 			<div class="col-md-6"><p>My approach to research has been driven by a love of astrophysics and instrumentation. I enjoy designing and building the devices on which I work, and feel an immense sense of pride when a device I have built is used to advance research.</p> 
@@ -89,6 +56,20 @@
 				<img src="images/Rendered_cutaway.jpg" width="100%" height="auto" align="middle"/>
 				<img src="images/mesh_detector_dimm.JPG" width="100%" height="auto" align="middle"/>
 			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<h2>Sample of Talks Given</h2>
+				<ul>
+					<li><a href="docs/Lascar-2017_DNP.pptx">Concurrent mass measurements and collinear laser spectroscopy</a> <i>2017 Low Energy Community Meeting, August 3, 2017. <a href="https://www.anl.gov" target="_blank">Argonne National Laboratory</a></i></li>
+					<li><a href="docs/Lascar_ASW_2017.pptx">EMMATrap: An important addition to the TRIUMF 5-year plan</a> <i>2017 ARIEL Science Workshop, July 10, 2017. <a href="https://www.triumf.ca" target="_blank">TRIUMF</a></i></li>
+					<li><a href="docs/Lascar_DNP_2016.pptx">Instrumentation Upgrades to TITAN’s Cooler Penning Trap</a> <i>2016 APS Division of Nuclear Physics Meeting, October 13-16, 2016. Vancouver, BC</i></li>
+					<li><a href="docs/LASCAR_ISOLDE2016.pptx">Recent TITAN Measurements and EMMATrap: An Introduction</a> <i>ISOLDE Physics Seminar, September 7, 2016. <a href="https://www.cern.ch" target="_blank">CERN</a></i></li>
+				</ul>
+			</div>
+			<div class="col-md-3"></div>
 		</div>
 		<br><br><br><br><br><br><br><br><br>
 		<div class="row">

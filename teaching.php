@@ -17,41 +17,8 @@
   <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="mailto:daniel.lascar@northwestern.edu">Daniel D. Lascar, Ph.D.</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.php">About</a></li>
-            <li><a href="research.php">Research</a></li>
-            <li class="active"><a href="teaching.php">Teaching</a></li>
-			<li><a href="cv.php">Academic CV</a></li>
-			<li><a href="pubs.php">Publications</a></li>
-			<li><a href="contact.php">Contact</a></li>
-            <!-- <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li> -->
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+	
+    <?php $page = 'teaching'; include 'includes/navigation.php' ; ?>
 
     <!-- Begin page content -->
 
@@ -63,25 +30,55 @@
 				<p>Throughout my physics career, I have made it a priority to get involved with teaching at the undergraduate-, graduate-, and general public levels.</p>
 				<p>Teaching is an important part of the career I want to have that includes research, classroom instruction and mentorship in the laboratory.</p>
 				<p>I believe that in order to be an effective instructor it is important that I give students a class that contains four basic attributes which, when taken in toto, bolster each other.</p>
+				<p class="lead">
+				<ol>
+					<li>I set well defined expectations for students.</li>
+					<li>The skills I teach in class are reinforced for more than just the duration of the initial lecture.</li>
+					<li>I give students options to accommodate an array of learning styles and strategies.</li>
+					<li>I promptly respond to student inquiries and give feedback on problem sets and exams which I use to adjust material presentation.</li>
+				</ol>
+				</p>
 			</div>
 			<div class="col-md-2"></div>
 		</div>
 		
 		<br>
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
 				<h2>Teaching Philosophy</h2>
 				<p class="lead">
 				<ul>
-					<li>I set well defined expectations for students.</li><br>
-					<li>The skills I teach in class are reinforced for more than just the duration of the initial lecture.</li><br>
-					<li>I give students options to accommodate an array of learning styles and strategies.</li><br>
-					<li>I promptly respond to student inquiries and give feedback on problem sets and exams which I are used to adjust material presentation.</li><br>
+					<li>I set well defined expectations for students.</li>
+					<li>The skills I teach in class are reinforced for more than just the duration of the initial lecture.</li>
+					<li>I give students options to accommodate an array of learning styles and strategies.</li>
+					<li>I promptly respond to student inquiries and give feedback on problem sets and exams which I use to adjust material presentation.</li>
 				</ul>
 				</p>
 			</div>
 			<div class="col-md-3"></div>
+		</div>
+		<br> -->
+		
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<h2>Undergraduate Teaching</h2>
+				<p>I am lecturer in the <a href="http://www.physics.northwestern.edu" target="_blank">Department of Physics and Astronomy</a> at Northwestern University teaching introductory calculus-based physics. I have previously taught non-calculus-based introductory physics at <a href="https://www.elmhurst.edu" target="_blank">Elmhurst College</a> and <a href="https://www.luc.edu" target="_blank">Loyola University Chicago</a>.</p>
+				<p>My lectures are characterized by a combination of short instruction broken up by multiple-choice, anonymized, fast-evaluation questions before braking up the class into group work. Group work is to be encouraged at every turn outside of exams because science is, at its core, a <i>collaborative enterprise</i>. This practice has served me well while teaching remotely during the COVID-19 outbreak.</p>
+				<p>The syllabus for my current class can be <a href="docs/Physics135-3-04.Spring2020.Syllabus.pdf" target="_blank">found here</a>.</p>
+			</div>
+			<div class="col-md-3">
+				<br>
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Recent Lecture</h3>
+					</div>
+					<div class="panel-body">
+						<iframe width="100%" src="https://www.youtube-nocookie.com/embed/VSnW576ceYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
 		</div>
 		<br>
 		<div class="row">
@@ -89,7 +86,7 @@
 			<div class="col-md-6">
 				<h2>Detector Physics</h2>
 				<br>
-				<p>My course on detector physics is part of the Postdoc Lecture Series at TRIUMF organized by TRIUMF's <a href="http://www.triumf.ca/gaps" target="_blank">Graduate Student and Postdoc Society (GAPS)</a>. The course ran from October 19 to November 23, 2015.</p>
+				<p>My course on detector physics is part of the Postdoc Lecture Series at TRIUMF organized by TRIUMF's <a href="https://gaps.triumf.ca/partners" target="_blank">Graduate Student and Postdoc Society (GAPS)</a>. The course ran from October 19 to November 23, 2015.</p>
 				<br>
 				<p>The <a href="docs/syllabus.pdf" target="_blank">course syllabus can be found here</a>.</p>
 			</div>
@@ -101,10 +98,9 @@
 					</div>
 					<div class="panel-body">
 						<!--<p>PDFs</p> <a href="docs/Lecture1-Rad_inter.pdf">Lecture 1</a>, <a href="docs/Lecture2-Ionization-Detectors.pdf">Lecture 2</a>, <a href="dosc/Lecture3-semiconductors.pdf">Lecture 3</a>, <a href="docs/Lecture4-Scintillation.pdf">Lecture 4</a>, <a href="docs/Lecture5-Electronics.pdf">Lecture 5</a>, and <a href="docs/Lecture6-Statistics.pdf">Lecture 6</a>.-->
-						<p>PDFs</p> <a href="docs/Lecture1-Rad_inter.pdf">1</a>, <a href="docs/Lecture2-Ionization-Detectors.pdf">2</a>, <a href="dosc/Lecture3-semiconductors.pdf">3</a>, <a href="docs/Lecture4-Scintillation.pdf">4</a>, <a href="docs/Lecture5-Electronics.pdf">5</a>, and <a href="docs/Lecture6-Statistics.pdf">6</a>.
+						<h4>PDFs</h4> <a href="docs/Lecture1-Rad_inter.pdf">1</a>, <a href="docs/Lecture2-Ionization-Detectors.pdf">2</a>, <a href="dosc/Lecture3-semiconductors.pdf">3</a>, <a href="docs/Lecture4-Scintillation.pdf">4</a>, <a href="docs/Lecture5-Electronics.pdf">5</a>, and <a href="docs/Lecture6-Statistics.pdf">6</a>.
 					<br>
-						<!--<p>PowerPoint</p> <a href="docs/Lecture1-Rad_inter.pptx">Lecture 1</a>, <a href="docs/Lecture2-Ionization-Detectors.pptx">Lecture 2</a>, <a href="docs/Lecture3-semiconductors.pptx">Lecture 3</a>, <a href="docs/Lecture4-Scintillation.pptx">Lecture 4</a>, <a href="docs/Lecture5-Electronics.pptx">Lecture 5</a>, and <a href="docs/Lecture6-Statistics.pptx">Lecture 6</a>-->
-						<p>PowerPoint</p> <a href="docs/Lecture1-Rad_inter.pptx">1</a>, <a href="docs/Lecture2-Ionization-Detectors.pptx">2</a>, <a href="docs/Lecture3-semiconductors.pptx">3</a>, <a href="docs/Lecture4-Scintillation.pptx">4</a>, <a href="docs/Lecture5-Electronics.pptx">5</a>, and <a href="docs/Lecture6-Statistics.pptx">6</a>
+						<h4>PowerPoint</h4> <a href="docs/Lecture1-Rad_inter.pptx">1</a>, <a href="docs/Lecture2-Ionization-Detectors.pptx">2</a>, <a href="docs/Lecture3-semiconductors.pptx">3</a>, <a href="docs/Lecture4-Scintillation.pptx">4</a>, <a href="docs/Lecture5-Electronics.pptx">5</a>, and <a href="docs/Lecture6-Statistics.pptx">6</a>
 					</div>
 				</div>
 			</div>
@@ -113,7 +109,7 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
-				<h2>Undergraduate Lecturing</h2>
+				<h2>Volunteer Lecturing</h2>
 				<br>
 				<p>In addition to the teaching assistant positions I filled throughout my time in graduate school, I also gave several lectures for undergraduates during my time at Argonne National Laboratory.</p>
 				<br>
@@ -131,6 +127,8 @@
 						<h4>ANL Student Talks</h4> <a href="docs/Lascar_student_talk_2012.pptx">Jun 20, 2012</a></li> and <a href="docs/Lascar_student_2010.pptx">Nov 17, 2010</a></li>.
 						<br>
 						<h4>Guest Lectures</h4> <a href="docs/IsoSIM-Electronics.pptx">UBC</a> and Simon Fraser <a href="docs/Mass1.pptx">Lecture 1, <a href="docs/Mass2.pptx">Lecture 2</a>.
+						<br><br>
+						A recent talk on version control given <a href="docs/Ver_control.pptx">at Elmhurst College</a>.
 					</div>
 				</div>
 			</div>
